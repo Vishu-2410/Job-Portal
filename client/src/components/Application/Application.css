@@ -1,0 +1,81 @@
+/* Application.css */
+
+.application {
+    padding: 40px 0;
+  }
+  
+  .application .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .application .container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  form {
+    display: grid;
+    gap: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+/*   
+  input[type="file"] {
+    display: none;
+  } */
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .select-file-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .select-file-button:hover {
+    background-color: #0056b3;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

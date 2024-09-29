@@ -1,0 +1,71 @@
+/* PopularCategories Styles */
+.categories {
+    background-color: #bdc3c7;
+    padding: 4rem 2rem;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .categories h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .categories h3:hover {
+    color: #3498db;
+  }
+  
+  .categories .banner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .categories .card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .categories .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .categories .icon {
+    font-size: 3rem;
+    color: #3498db;
+    margin-bottom: 1rem;
+  }
+  
+  .categories .text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin: 0.5rem 0;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .categories {
+      padding: 2rem 1rem;
+    }
+  
+    .categories h3 {
+      font-size: 2rem;
+    }
+  
+    .categories .card {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  

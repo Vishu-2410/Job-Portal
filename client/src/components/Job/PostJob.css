@@ -1,0 +1,134 @@
+/* PostJob Styles */
+.job_post {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .job_post .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .job_post h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+  }
+  
+  .job_post form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .job_post .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .job_post .wrapper input[type="text"],
+  .job_post .wrapper input[type="number"],
+  .job_post select,
+  .job_post textarea {
+    width: calc(50% - 1rem);
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .job_post .wrapper input[type="text"]:focus,
+  .job_post .wrapper input[type="number"]:focus,
+  .job_post select:focus,
+  .job_post textarea:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  
+  .job_post .salary_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .job_post .salary_wrapper select {
+    width: calc(50% - 1rem);
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .job_post .salary_wrapper p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #e74c3c;
+    margin: 0;
+  }
+  
+  .job_post .ranged_salary {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .job_post textarea {
+    width: calc(100% - 2rem);
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .job_post button[type="submit"] {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .job_post button[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  
+  .job_post p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #2c3e50;
+    margin-top: 1rem;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .job_post {
+      padding: 2rem 1rem;
+    }
+  
+    .job_post h3 {
+      font-size: 2rem;
+    }
+  
+    .job_post .wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .job_post .wrapper input[type="text"],
+    .job_post .wrapper input[type="number"],
+    .job_post select,
+    .job_post textarea,
+    .job_post .salary_wrapper select {
+      width: 100%;
+    }
+  }
+  

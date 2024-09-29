@@ -1,0 +1,84 @@
+/* HowItWorks Styles */
+.howitworks {
+    background-color: #ecf0f1;
+    padding: 4rem 2rem;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .howitworks .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .howitworks h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .howitworks h3:hover {
+    color: #3498db;
+  }
+  
+  .howitworks .banner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .howitworks .card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .howitworks .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .howitworks .card .icon {
+    font-size: 3rem;
+    color: #3498db;
+    margin-bottom: 1rem;
+  }
+  
+  .howitworks .card p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #2c3e50;
+    margin: 0.5rem 0;
+  }
+  
+  .howitworks .card p:last-child {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .howitworks {
+      padding: 2rem 1rem;
+    }
+  
+    .howitworks h3 {
+      font-size: 2rem;
+    }
+  
+    .howitworks .card {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  

@@ -1,0 +1,49 @@
+/* login register form css */
+.authPage .container form .inputTag div svg {
+  width: 10%;
+  font-size: 1.5rem;
+  /* background: #2d5649; */
+  background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+  height: 100%;
+  padding: 8px;
+  color: #fff;
+}
+
+.authPage .container form button {
+  padding: 12px;
+  text-align: center;
+  border: none;
+  margin-top: 25px;
+  font-weight: 700;
+  color: #fff;
+  /* background: #2d5649; */
+  background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+  font-size: 1.2rem;
+  border-radius: 7px;
+}
+
+.authPage .container form a {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #2d5649;
+  margin-top: 25px;
+  font-weight: 700;
+  color: #2d5649;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 7px;
+}
+
+.authPage .banner {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.authPage .banner img {
+  width: 100%;
+  width: 550px;
+  height: 550px;
+}

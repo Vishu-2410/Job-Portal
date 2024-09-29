@@ -1,0 +1,152 @@
+/* MyJobs Styles */
+.myJobs {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .myJobs .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .myJobs h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+  }
+  
+  .myJobs .banner {
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .myJobs .card {
+    background-color: #ffffff;
+  
+    width: 700px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .myJobs .card .content {
+    display: flex;
+    flex-wrap: wrap;gap: 20px;
+  }
+  
+  .myJobs .card .content .short_fields {
+    flex: 1;
+  }
+  
+  .myJobs .card .content .short_fields > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .myJobs .card .content .short_fields > div span {
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  .myJobs .card .content .short_fields input,
+  .myJobs .card .content .short_fields select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .myJobs .card .content .long_field {
+    flex: 1;
+    margin-top: 1rem;
+  }
+  
+  .myJobs .card .content .long_field div {
+    margin-bottom: 1rem;
+  }
+  
+  .myJobs .card .content .long_field span {
+    font-weight: bold;
+  }
+  
+  .myJobs .card .button_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .myJobs .card .button_wrapper .edit_btn_wrapper {
+    display: flex;
+  }
+  
+  .myJobs .card .button_wrapper .edit_btn_wrapper button {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 0.5rem;
+  }
+  
+  .myJobs .card .button_wrapper .edit_btn_wrapper button:hover {
+    background-color: #2980b9;
+  }
+  
+  .myJobs .card .button_wrapper .edit_btn_wrapper button.check_btn {
+    background-color: #27ae60;
+  }
+  
+  .myJobs .card .button_wrapper .edit_btn_wrapper button.cross_btn {
+    background-color: #e74c3c;
+  }
+  
+  .myJobs .card .button_wrapper button.delete_btn {
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .myJobs .card .button_wrapper button.delete_btn:hover {
+    background-color: #c0392b;
+  }
+  
+  .myJobs .card .button_wrapper button:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+  }
+  
+  .myJobs p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #2c3e50;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .myJobs {
+      padding: 2rem 1rem;
+    }
+  
+    .myJobs h1 {
+      font-size: 2rem;
+    }
+  
+    .myJobs .banner {
+      grid-template-columns: 1fr;
+    }
+  }
+  
